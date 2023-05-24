@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aaa:block/distiller"
+    }
+  }
+}
