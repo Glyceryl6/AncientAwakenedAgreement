@@ -1,8 +1,10 @@
 package com.glyceryl6.aaa.registry;
 
 import com.glyceryl6.aaa.AncientAwakenedAgreement;
+import com.glyceryl6.aaa.items.AAASimpleItem;
 import com.glyceryl6.aaa.items.ChewingTeeth;
 import com.glyceryl6.aaa.items.EnchantedGem;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,11 +27,15 @@ public class AAAItems {
     public static final RegistryObject<Item> PENTACLE_JAR = normal("pentacle_jar");
     public static final RegistryObject<Item> SWORD_JAR = normal("sword_jar");
     public static final RegistryObject<Item> WAND_JAR = normal("wand_jar");
+    public static final RegistryObject<Item> LIME = normal("lime");
     public static final RegistryObject<Item> DATURA = normal("datura");
     public static final RegistryObject<Item> BELLADONNA = normal("belladonna");
     public static final RegistryObject<Item> CHILI_PEPPER = normal("chili_pepper");
     public static final RegistryObject<Item> DATURA_SEEDS = alias("datura_seeds", AAABlocks.DATURA);
     public static final RegistryObject<Item> BELLADONNA_SEEDS = alias("belladonna_seeds", AAABlocks.BELLADONNA);
     public static final RegistryObject<Item> CHILI_PEPPER_SEEDS = alias("chili_pepper_seeds", AAABlocks.CHILI_PEPPER);
+
+    public static final RegistryObject<Item> BEECH_NUT = ITEMS.register("beech_nut", () -> new AAASimpleItem(new Item.Properties()
+            .tab(AAATabs.CD_TAB_0).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.5F).build())));
 
 }

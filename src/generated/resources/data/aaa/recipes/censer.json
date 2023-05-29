@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Y": {
+      "item": "aaa:enchanted_gem"
+    },
+    "Z": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XYX",
+    "XZX"
+  ],
+  "result": {
+    "item": "aaa:censer"
+  }
+}

@@ -6,7 +6,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.*;
 
-public class ChewingTeeth extends Item implements Vanishable {
+public class ChewingTeeth extends AAASimpleItem implements Vanishable {
 
     public ChewingTeeth() {
         super(new Properties().durability(300));

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "aaa:block/belladonna_stage_0"
+    },
+    "age=1": {
+      "model": "aaa:block/belladonna_stage_1"
+    },
+    "age=2": {
+      "model": "aaa:block/belladonna_stage_2"
+    },
+    "age=3": {
+      "model": "aaa:block/belladonna_stage_3"
+    },
+    "age=4": {
+      "model": "aaa:block/belladonna_stage_4"
+    },
+    "age=5": {
+      "model": "aaa:block/belladonna_stage_5"
+    }
+  }
+}

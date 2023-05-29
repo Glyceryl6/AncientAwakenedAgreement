@@ -1,5 +1,6 @@
 package com.glyceryl6.aaa.utils;
 
+import com.glyceryl6.aaa.items.AAASimpleItem;
 import com.glyceryl6.aaa.registry.AAAItems;
 import com.glyceryl6.aaa.registry.AAATabs;
 import net.minecraft.world.entity.EntityType;
@@ -15,7 +16,7 @@ import java.util.function.Supplier;
 public class AAAItemUtils {
 
     public static RegistryObject<Item> normal(String name) {
-        return AAAItems.ITEMS.register(name, () -> new Item(defaultBuilder()));
+        return AAAItems.ITEMS.register(name, () -> new AAASimpleItem(defaultBuilder()));
     }
 
     public static RegistryObject<Item> alias(String name, RegistryObject<Block> block) {

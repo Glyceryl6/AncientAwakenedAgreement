@@ -10,7 +10,7 @@ public class AAATabs {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Blocks.BEDROCK);
+            return new ItemStack(AAAItems.BEECH_NUT.get());
         }
 
     };

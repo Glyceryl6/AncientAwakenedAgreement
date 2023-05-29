@@ -1,9 +1,8 @@
 package com.glyceryl6.aaa.items;
 
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
-public class EnchantedGem extends Item {
+public class EnchantedGem extends AAASimpleItem {
 
     public EnchantedGem() {
         super(new Properties());
